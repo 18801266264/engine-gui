@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+
+<body>
+
+    <canvas id="app" width="1000" height="1000"></canvas>
+    <script src="Dragon/Dragon.js"></script>
+    <script>
+        document.write(process.versions.electron)
+
+        let gui = require('./lib/renderer/gui.js')
+        gui.run();
+    </script>
+</body>
+
+</html>
